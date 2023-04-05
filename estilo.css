@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background-color: #FFF;
+}
+
+header{
+
+    width: 100%;
+    height: auto;
+
+}
+
+li{
+    padding: 0.4%;
+
+}
+
+#conteudo{
+
+    width: 100%;
+    min-height: 200px;
+    margin: 1%;
+    font-family: arial;
+    font-size: 1.5em;
+    text-align: justify;
+    color: #000;
+}
+
+article{
+    padding: 1%;
+}
+
+.prod{
+    width: 200px;
+}
+
+.serv{
+    width: 100px;
+}
+
+
+footer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: arial;
+    font-size: 1em;
+    color: #000;
+}
+.img{
+    width: 40%;
+}
+
+@media screen and (max-width:440px){
+    .img    {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .img{
+        width:70%;
+    }
+}
